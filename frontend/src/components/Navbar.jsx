@@ -127,7 +127,7 @@ export default function Navbar({ isDarkMode, toggleTheme, setShowAuth, isAuthent
             
             {/* GitHub Link Button */}
             <a
-              href="https://github.com/Prthmsh7/Workout-Master"
+              href="https://github.com/Shouray1104/Workout_Master"
               target="_blank"
               rel="noopener noreferrer"
               className={`p-2 rounded-full ${navHoverBg} transition-all duration-200 hover:scale-110 flex items-center justify-center w-9 h-9`}
@@ -261,7 +261,7 @@ export default function Navbar({ isDarkMode, toggleTheme, setShowAuth, isAuthent
           ))}
           
           <a
-            href="https://github.com/Prthmsh7/Workout-Master"
+            href="https://github.com/Shouray1104/Workout_Master"
             target="_blank"
             rel="noopener noreferrer"
             className={`flex items-center gap-3 px-4 py-3 rounded-lg text-base font-medium w-full text-left transition-all duration-200 ${textColor} ${navHoverBg}`}
