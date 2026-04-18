@@ -35,7 +35,7 @@ A full-stack workout generator and tracker application to help you reach your fi
 
 1. Clone the repository
    ```
-   git clone https://github.com/yourusername/workout-master.git
+   https://github.com/Shouray1104/Workout_Master.git
    cd workout-master
    ```
 
