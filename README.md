@@ -3,7 +3,7 @@
 A full-stack workout generator and tracker application to help you reach your fitness goals.
 
 ## Features
-
+ 
 - **User Authentication**: Create accounts, log in, and manage your personal profile
 - **Workout Generator**: Create custom workouts based on muscle groups and fitness goals
 - **Workout History**: Track your completed workouts and see your progress
