@@ -3,9 +3,9 @@
 A full-stack workout generator and tracker application to help you reach your fitness goals.
 
 ## Features
-
+ 
 - **User Authentication**: Create accounts, log in, and manage your personal profile
-- **Workout Generator**: Create custom workouts based on muscle groups and fitness goals
+- **Workout Generator**: Create custom workouts based on muscle groups and fitness goals 
 - **Workout History**: Track your completed workouts and see your progress
 - **Profile Management**: Update your personal information and fitness level
 - **Dark Mode**: Toggle between light and dark themes
@@ -40,7 +40,7 @@ A full-stack workout generator and tracker application to help you reach your fi
 
 1. Clone the repository
    ```
-   git clone https://github.com/yourusername/workout-master.git
+   https://github.com/Shouray1104/Workout_Master.git
    cd workout-master
    ```
 
@@ -133,5 +133,5 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 ---
 
 <div align="center">
-  <p>Built with ❤️ by Prathmesh</p>
+  <p>Built with ❤️ by Shouray</p>
 </div>
