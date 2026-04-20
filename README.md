@@ -12,17 +12,22 @@ A full-stack workout generator and tracker application to help you reach your fi
 
 ## Technology Stack
 
-### Frontend
+### Frontend (Vite + React)
 - React
 - Tailwind CSS
 - Axios for API communication
 - Context API for state management
+- Clerk for authentication
 
 ### Backend
 - Node.js
 - Express.js
 - MongoDB with Mongoose
-- JWT for authentication
+
+### Next.js App (Alternative Frontend)
+- Next.js
+- Clerk for authentication
+- Tailwind CSS
 
 ## Getting Started
 
@@ -52,36 +57,50 @@ A full-stack workout generator and tracker application to help you reach your fi
 
 ### Configuration
 
-1. Create a `.env` file in the root directory with the following variables:
+1. **Backend**: Create a `.env` file in the `server` directory with the following variables:
    ```
    PORT=5000
    MONGODB_URI=mongodb://localhost:27017/workout-master
-   JWT_SECRET=yoursecretkey
    NODE_ENV=development
    ```
 
-   * Replace `yoursecretkey` with a secure random string
    * If using MongoDB Atlas, replace the MONGODB_URI with your connection string
+
+2. **Frontend (Vite)**: Create a `.env` file in the `frontend` directory:
+   ```
+   VITE_CLERK_PUBLISHABLE_KEY=your_clerk_publishable_key
+   ```
+
+3. **Next.js App**: Create a `.env.local` file in the `clerk-nextjs` directory:
+   ```
+   NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=your_clerk_publishable_key
+   CLERK_SECRET_KEY=your_clerk_secret_key
+   ```
+
+   Get your Clerk keys from [Clerk Dashboard](https://dashboard.clerk.com/)
 
 ### Running the Application
 
 1. Start the backend server
    ```
-   npm run server
+   cd server
+   npm install
+   npm start
    ```
 
-2. In a separate terminal, start the frontend
+2. **Option A: Vite Frontend**
    ```
    cd frontend
    npm run dev
    ```
+   Open your browser and navigate to `http://localhost:5173`
 
-3. Open your browser and navigate to `http://localhost:5173`
-
-Alternatively, run both frontend and backend with one command:
-```
-npm run dev
-```
+3. **Option B: Next.js App**
+   ```
+   cd clerk-nextjs
+   npm run dev
+   ```
+   Open your browser and navigate to `http://localhost:3000`
 
 ## API Endpoints
 
